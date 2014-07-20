@@ -16,6 +16,7 @@ angular.module('cars').controller('CarsController', ['$scope', '$stateParams', '
 				{field: 'year', displayName: 'Year'},
 				{field: 'registered', displayName: 'Rego'},
 				{field: 'kms', displayName: 'Kilometeres'},
+				{field: 'body', displayName: 'Body'},
 			],
 			showGroupPanel: true,
 			jqueryUIDraggable: true,
