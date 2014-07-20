@@ -5,6 +5,10 @@ angular.module('cars').config(['$stateProvider',
 	function($stateProvider) {
 		// Cars state routing
 		$stateProvider.
+		state('all', {
+			url: '/',
+			templateUrl: 'modules/cars/views/list-cars.client.view.html'
+		}).
 		state('listCars', {
 			url: '/cars',
 			templateUrl: 'modules/cars/views/list-cars.client.view.html'
